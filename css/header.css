@@ -1,0 +1,75 @@
+/* 헤더바 */
+header {
+  margin-top: 10px;
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 10px;
+}
+
+.info-bar {
+  /* div태그를 양 옆으로 배치 */
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+  margin: 10px;
+}
+
+.info-bar__time {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.info-bar__icons--chart-var {
+  margin-right: 5px;
+}
+
+.info-bar__icons--wifi {
+  margin-right: 5px;
+}
+
+.info-bar__icons--battery {
+  margin-right: 5px;
+}
+
+.info-bar__icons {
+  margin-right: 17px;
+  display: flex;
+  width: 15px;
+}
+
+/* 메뉴바 */
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.menu-bar__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.menu-bar__location img {
+  width: 15px;
+}
+
+.menu-bar__location-icon {
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar__icons img {
+  width: 15px;
+  margin-right: 5px;
+}
